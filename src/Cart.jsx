@@ -64,15 +64,15 @@ function Cart() {
                   <div className="btns">
                     <button
                       className="quantityBtn"
-                      onClick={() => updateQuantity(item.id, 1)}
-                    >
-                      +
-                    </button>
-                    <button
-                      className="quantityBtn"
                       onClick={() => updateQuantity(item.id, -1)}
                     >
                       -
+                    </button>
+                    <button
+                      className="quantityBtn"
+                      onClick={() => updateQuantity(item.id, 1)}
+                    >
+                      +
                     </button>
                   </div>
                 </div>
